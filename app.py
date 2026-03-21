@@ -16,7 +16,11 @@ async def analyze(data: AnalyzeRequest) -> AnalyzeResponse:
 
 
 cors_config = CORSConfig(
-    allow_origins=["http://localhost:3000"],
+    allow_origins=[
+        "http://localhost:3000",
+        "https://vacconescore.com",
+        "https://www.vacconescore.com",
+    ],
     allow_methods=["GET", "POST"],
     allow_headers=["*"],
 )
