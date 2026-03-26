@@ -3,7 +3,7 @@ from dataclasses import dataclass
 import numpy
 from sklearn.linear_model import Ridge
 
-from schemas import AnalyzeResponse, Match, ParticipantRating
+from vaccone_score.schemas import AnalyzeResponse, Match, ParticipantRating
 
 FloatArray = numpy.typing.NDArray[numpy.float64]
 
